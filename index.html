@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BBVA Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1, user-scalable=no"> 
+    <!-- Linking BoxIcon for Icon -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header><i class='bx bx-left-arrow-alt'></i>BBVA con el tiempo actual</header>
+      <section class="input-part">
+        <p class="info-txt"></p>
+        <div class="content">
+          <input type="text" spellcheck="false" placeholder="Introduce una ciudad" required>
+          <div class="separator"></div>
+          <button>Obtener geolocalización</button>
+        </div>
+      </section>
+      <section class="weather-part">
+        <!-- Ciduad, Pais -->
+        <div class="location">
+          <i class='bx bx-map'></i>
+          <h3><span>_, _</span></h3>
+        </div>
+        <!-- icono tiempo -->
+        <img src="" alt="Weather Icon">
+        <!-- Temperatura -->
+        <div class="temp">
+          <span class="numb">_</span>
+          <span class="deg">°</span>C
+        </div>
+        <!-- Tiempo -->
+        <div class="weather">_ _</div>        
+        <div class="bottom-details">
+          <div class="column feels">
+            <i class='bx bxs-thermometer'></i>
+            <div class="details">
+              <div class="temp">
+                <span class="numb-2">_</span>
+                <span class="deg">°</span>C
+              </div>
+              <p>Sensación atmosférica</p>
+            </div>
+          </div>
+          <div class="column humidity">
+            <i class='bx bxs-droplet-half'></i>
+            <div class="details">
+              <span>_</span>
+              <p>Humedad</p>
+            </div>
+          </div>
+          <div class="column wind">
+            <i class='bx bx-wind'></i>
+            <div class="details">
+              <span>_</span>
+              <h6><span>m/s</span></h6>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-days">
+          <div class="column day">
+            <div class="day1">
+              <h3><span>_</span></h3> 
+              <div class="temp">
+                <span class="numb1">_</span>°C
+              </div>
+              <img src="" alt="Weather Icon">
+            </div>
+          </div>
+          <div class="column day">
+            <div class="day2">
+              <h3><span>_</span></h3>
+              <div class="temp">
+                <span class="numb2">_</span>°C
+              </div>
+              <img src="" alt="Weather Icon">
+            </div>
+          </div>
+          <div class="column day">
+            <div class="day3">
+              <h3><span>_</span></h3>
+              <div class="temp">
+                <span class="numb3">_</span>°C
+              </div>
+              <img src="" alt="Weather Icon">
+            </div>
+          </div>
+        </div>           
+      </section>
+ 
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
